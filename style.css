@@ -18,6 +18,13 @@ P{
 .nav-item a:hover{
     color: rgb(20, 219, 20);
 }
+.nav-item .btn{
+    border: 2px  solid rgb(0, 0, 0);
+    border-radius: 10px;
+}
+.nav-item .btn:hover {
+    color: aliceblue;
+}
 .navbar-brand{
     height: 50px;
     width: 100px;
@@ -124,6 +131,16 @@ P{
     background: rgb(20, 219, 20);
     display: inline-block;
 }
+@media screen and (max-width: 600px) {
+    .main{
+        background: url(https://i.pinimg.com/736x/8b/cd/b4/8bcdb4ca0b42a4cb363d2465f2ccf3d1.jpg)no-repeat;
+        background-size:cover;
+        height: 100vh;
+        width: 100%;
+        padding-left: 50px;
+
+    }
+  }
 /*===============*/
 .about{
     background: url(https://img.freepik.com/premium-photo/fruits-vegetables-white-marble-background-top-view-copy-space_810275-1346.jpg) no-repeat;
@@ -145,6 +162,16 @@ P{
     font-size: 18px;
     color: greenyellow;
 }
+@media screen and (max-width: 600px) {
+   
+    .about{
+        background: url(https://s2.best-wallpaper.net/wallpaper/iphone/1902/Some-fruit-citrus-oranges-lime-lemon-grapefruit_iphone_750x1334.jpg) no-repeat;
+        background-size: cover;
+        height: 90vh;
+        width: 100%;
+    
+    }
+  }
 /*============================*/
 .welcome{
     background: rgb(20, 219, 20);
